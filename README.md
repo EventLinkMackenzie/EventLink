@@ -6,7 +6,7 @@ O EventLink é uma aplicação desenvolvida como parte de um projeto acadêmico 
 
 # Acesse o Wiki do EventLink 👇
 
-Acesse o Wiki do proejto pra condefriri a documenatção: https://github.com/EventLinkMackenzie/EventLink/wiki
+Acesse o wiki do projeto para conferir a documentação: https://github.com/EventLinkMackenzie/EventLink/wiki
 
 # Integrantes 🔽
 
