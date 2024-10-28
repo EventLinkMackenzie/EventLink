@@ -12,8 +12,8 @@ Acesse o wiki do projeto para conferir a documentação: https://github.com/Even
 
 <ul>
   <li> Beatriz Pimenta de Camargo - <a href="mailto:10428378@mackenzista.com.br">10428378@mackenzista.com.br</a> - RA: 10428378 </li>
-  <li> Matheus Ricardo de Oliveira Silva - <a href="mailto:10409067@mackenzista.com.br">10418754@mackenzista.com.br</a> - RA: 10418754 </li>
-  <li> Pedro Cavalcante Ferreira de Andrade - <a href="mailto:10409067@mackenzista.com.br">10408394@mackenzista.com.br</a> - RA: 10408394 </li>
+  <li> Pedro Cavalcante Ferreira de Andrade - <a href="mailto:10409067@mackenzista.com.br">10418754@mackenzista.com.br</a> - RA: 10408394 </li>
+  <li> Matheus Ricardo de Oliveira Silva - <a href="mailto:10409067@mackenzista.com.br">10408394@mackenzista.com.br</a> - RA: 10418754 </li>
 </ul>
 
 ![channels4_banner](https://github.com/user-attachments/assets/1021f93c-13a9-486a-8c5c-80624679bb57)
