@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+.pageContainer {
+  min-height: 100vh;
+  background-color: #1F1C6C;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 20px;
+}
+
+.eventLinkLogo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.eventLinkLogo a {
+  color: white;
+  text-decoration: none;
+}
+
+.returnNav {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.returnLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.returnLink:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.loginContainer {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.welcomeMessage {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 1.5rem;
+  color: #000033;
+  margin-bottom: 30px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.formGroup input {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.formGroup input:focus {
+  outline: none;
+  border-color: #000033;
+}
+
+.submitButton {
+  background-color: #000033;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.submitButton:hover {
+  background-color: #000066;
+}
+
+.error {
+  color: #dc3545;
+  background-color: #ffe6e6;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.cadastroLink {
+  text-align: center;
+  margin-top: 20px;
+  color: #666;
+}
+
+.cadastroLink a {
+  color: #000033;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.cadastroLink a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .loginContainer {
+    margin: 60px 20px 20px;
+    padding: 20px;
+  }
+
+  .returnNav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  .returnLink {
+    width: 150px;
+  }
+}

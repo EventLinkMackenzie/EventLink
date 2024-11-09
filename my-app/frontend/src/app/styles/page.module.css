@@ -1,0 +1,220 @@
+.main {
+  background-color: #1f1c6c;
+  min-height: 100vh;
+  color: white;
+}
+
+.contentWrapper {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  min-height: auto;
+  position: relative;
+}
+
+.imageContainer {
+  flex: 0 0 50%;
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.eventImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.eventImage:hover {
+  transform: scale(1.05);
+}
+
+.description {
+  flex: 1;
+  padding-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.description h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.description p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.ticketButton {
+  background-color: white;
+  color: #0A075F;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 12px 24px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+}
+
+.ticketButton:hover {
+  background-color: #f0f0f0;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+}
+
+.eventInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px 40px;
+  background-color: #0A075F;
+  position: absolute;
+  bottom: 350px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - 80px);
+  max-width: 1200px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+.eventField {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+  position: relative;
+}
+
+.eventField label {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.eventField label::after {
+  content: none;
+}
+
+.eventInput,
+.eventSelect,
+.eventDate {
+  padding: 8px 0;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  background-color: transparent;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  width: 100%;
+  transition: border-color 0.3s ease;
+}
+
+.eventInput:focus,
+.eventSelect:focus,
+.eventDate:focus {
+  outline: none;
+  border-bottom-color: white;
+}
+
+.eventInput::placeholder,
+.eventSelect::placeholder,
+.eventDate::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.eventSelect {
+  appearance: none;
+  background-image: none; 
+  padding-right: 10px; 
+}
+
+.eventSelect option {
+  background-color: #0A075F;
+  color: white;
+}
+
+.eventsToFooterWrapper {
+  background-color: #D4D6E3;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  margin-top: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.loadMoreContainer {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0 0;
+}
+
+.loadMoreButton {
+  background-color: transparent;
+  color: #3D37F1;
+  border: 2px solid #3D37F1;
+  border-radius: 30px;
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.loadMoreButton:hover {
+  background-color: #3D37F1;
+  color: white;
+  box-shadow: 0 4px 8px rgba(61, 55, 241, 0.3);
+}
+
+.datepickerWrapper {
+  width: 100%;
+}
+
+.datepicker {
+  font-family: 'Roboto', sans-serif;
+  border: 1px solid #1F1C6C;
+  border-radius: 4px;
+}
+
+.datepickerHeader {
+  background-color: #1F1C6C;
+  color: white;
+}
+
+.datepickerCurrentMonth,
+.datepickerDayName {
+  color: white;
+}
+
+.datepickerDaySelected {
+  background-color: #1F1C6C;
+  color: white;
+}
+
+.datepickerDayHover:hover {
+  background-color: #3D37F1;
+  color: white;
+}

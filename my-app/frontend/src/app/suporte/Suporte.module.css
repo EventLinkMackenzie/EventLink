@@ -1,0 +1,66 @@
+.suporteContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.title {
+  color: #0A075F;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.faq, .contato {
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.faq h2, .contato h2 {
+  color: #0A075F;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.faq ul, .contato ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.faq li {
+  margin-bottom: 1.5rem;
+}
+
+.faq h3 {
+  color: #333;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.faq p, .contato p, .contato li {
+  color: #666;
+  line-height: 1.6;
+}
+
+.contato li {
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .suporteContainer {
+    padding: 1rem;
+  }
+  
+  .title {
+    font-size: 2rem;
+  }
+}
