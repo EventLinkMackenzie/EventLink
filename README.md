@@ -11,9 +11,9 @@ Acesse o wiki do projeto para conferir a documentação: https://github.com/Even
 # Integrantes 🔽
 
 <ul>
-  <li> Beatriz Pimenta de Camargo - RA: </li>
-  <li> Pedro Cavalcante Ferreira de Andrade - RA: </li>
-  <li> Matheus Ricardo de Oliveira Silva - RA: </li>
+  <li> Beatriz Pimenta de Camargo </li>
+  <li> Pedro Cavalcante Ferreira de Andrade </li>
+  <li> Matheus Ricardo de Oliveira Silva </li>
 </ul>
 
 ![channels4_banner](https://github.com/user-attachments/assets/1021f93c-13a9-486a-8c5c-80624679bb57)
